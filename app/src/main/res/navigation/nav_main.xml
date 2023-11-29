@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/mqFragment">
+
+
+    <fragment
+        android:id="@+id/akFragment"
+        android:name="com.example.aqua.fragment.kit.AkFragment"
+        android:label="AkFragment" />
+    <fragment
+        android:id="@+id/amFragment"
+        android:name="com.example.aqua.fragment.kit.AmFragment"
+        android:label="AmFragment" >
+    </fragment>
+    <fragment
+        android:id="@+id/mqFragment"
+        android:name="com.example.aqua.fragment.kit.MqFragment"
+        android:label="MqFragment" />
+    <fragment
+        android:id="@+id/mcFragment"
+        android:name="com.example.aqua.fragment.kit.McFragment"
+        android:label="McFragment" />
+
+</navigation>
